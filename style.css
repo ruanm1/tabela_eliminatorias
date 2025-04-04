@@ -1,0 +1,110 @@
+.eliminatoria{
+    background-color: #06aa48;
+    text-align: center;
+    color: white;
+font-size: 40px;
+padding: 20px 0 20px 0 ;
+}
+
+th{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.pri-ter{
+    color: blue;
+   
+}
+.qua-qui{
+    color: aqua;
+}
+
+.sexto{
+    color: #06aa48;
+}
+
+.decimo{
+    color: red;
+}
+
+
+.tabela-container {
+    width: 100%;
+    max-width: 80px;
+    margin: 20px auto;
+  }
+  
+.titulo-tabela{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 6px 8px;
+    font-size: 18px;
+  }
+  
+  th {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+
+  td:first-child {
+    text-align: left;
+    padding-right: 4px;
+    width: 20px;
+    border-right: none;
+  }
+  
+
+  td:nth-child(2) {
+    text-align: left;
+    padding-left: 4px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .bandeira {
+    width: 20px;  /* Largura da bandeira */
+    height: 25px; /* Altura da bandeira */
+    margin-right: 5px; /* Espaço entre a bandeira e o nome */
+    vertical-align: middle; /* Alinhar a bandeira com o texto */
+    object-fit: cover; /* Evita distorção da imagem */
+  }
+  .ultimos-jogos {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.ultimos-jogos span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.vitoria {
+    background-color: green;
+}
+
+.derrota {
+    background-color: red;
+}
+
+.empate {
+    background-color: gray;
+}
